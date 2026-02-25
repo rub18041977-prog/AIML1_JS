@@ -42,17 +42,56 @@ else{
 // for(count = 0; count<10; count++){
 // document.write("<br/>");
 
-const person = {
-    fname:"Rashi",
-    iname:"Singh",
-    age:19
-};
-for(let x in person){
-    console.log("Person details:"+x+":"+ person[x])
-}
+// const person = {
+//     fname:"Rashi",
+//     iname:"Singh",
+//     age:19
+// };
+// for(let x in person){
+//     console.log("Person details:"+x+":"+ person[x])
+// }
+<html>
+<body>
 
+<script>
 
+var a = 40;
+var b = 20;
+var linebreak = "<br />";
 
+document.write("Value of a => (a = b) => ");
+result = (a = b);
+document.write(result);
+document.write(linebreak);
 
+document.write("Value of a => (a += b) => ");
+result = (a += b);
+document.write(result);
+document.write(linebreak);
 
+document.write("Value of a => (a -= b) => ");
+result = (a -= b);
+document.write(result);
+document.write(linebreak);
 
+document.write("Value of a => (a *= b) => ");
+result = (a *= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a /= b) => ");
+result = (a /= b);
+document.write(result);
+document.write(linebreak);
+
+document.write("Value of a => (a %= b) => ");
+result = (a %= b);
+document.write(result);
+document.write(linebreak);
+
+</script>
+
+<p>Set the variables to different values and different operators and then try...</p>
+
+</body>
+</html>
