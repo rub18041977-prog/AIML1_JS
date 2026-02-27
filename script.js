@@ -23,7 +23,7 @@
 
 
 
-{/* <sript type="text">
+/* <sript type="text">
 const sym1= Symbol(4)
 console.log(sym1);
 const sym2= Symbol(4)
@@ -33,7 +33,7 @@ if(sym1==sym2){
 }
 else{
     console.log("false")
-}</script> */}
+}</script> */
 
 
 
@@ -48,9 +48,9 @@ else{
 //     age:19
 // };
 // for(let x in person){
-//     console.log("Person details:"+x+":"+ person[x])
+//     console.log("Person details:"+x+":"+ person[x])  //person.[x]
 // }
-<html>
+/* <html>
 <body>
 
 <script>
@@ -94,4 +94,111 @@ document.write(linebreak);
 <p>Set the variables to different values and different operators and then try...</p>
 
 </body>
-</html>
+</html> */
+
+// const person = {
+//     fname:"Rashi",
+//     iname:"Singh",
+//     age:19
+// };
+// for(let x in person){
+//     console.log("Person details:"+x+":"+ person[x])  
+// }
+
+// var ocunt=0;
+// console.log("Starting loop");
+
+// while (count<10){
+//     console.log("Current Count:"+count+"<br/>");
+//     count++;
+// }
+
+// console.log("Loop Stopped");
+
+
+// var age=20;
+
+// if(age>18){
+//     document.write("<br>You are eligible to cast the vote.</br>");
+// }
+
+
+
+// let age=20;
+// if(age>=18){
+//     console.log("You are an adult:");
+// }
+// else{
+//     console.log("You re minor:");
+// }
+
+
+
+// var grade='A';
+// document.write("entering switch block<br/>");
+// switch(grade){
+//     case'A':document.write("Good Job <br/>");
+//     break;
+
+//     case'B':document.write("Pretty Good <br/>");
+//     break;
+
+//     case'C':document.write("Passed <br/>");
+//     break;
+
+//     case'D':document.write("Not so good <br/>");
+//     break;
+
+//     case'E':document.write("Failed <br/>");
+//     break;
+// }
+// document.write()
+// }
+
+ 
+
+// function myFunction(){
+//     alert("Hello Wolrd")
+// }
+
+
+
+// function sayHello(name, age){
+//     document.write(name+"is"+age+"years old.");
+// }
+
+
+// var res=mul(12,30);
+// function mul(x,y){
+//     return x*y
+// }
+// document.write(res);
+
+
+
+//normal function
+// function add(a,b){
+//     console.log(a+b);
+// } add(10,20);
+
+// //arrow function
+// var add2=(a,b)=>{
+//     console.log(a+b);
+// };
+// add2(102,20);
+// //arrow function for single line parameters
+// var add3=(a,b)=> console.log(a+b);
+// add3(30,20);
+
+
+
+var person={
+    name:"Jhon Max",
+    age:30,
+    isMarried:true,
+    address: {
+        street: "Vijay Nagar",
+        flatNO: 201
+    }
+}
+console.log(person);
