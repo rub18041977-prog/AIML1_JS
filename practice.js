@@ -1,0 +1,15 @@
+var num = 10;
+document.write(num);(num);
+document.write(num);(typeof(num));
+num = false;
+document.write(num);(num);
+document.write(num);(typeof(num));
+num = "Jitendra Chauhan";
+document.write(num);(num);
+document.write(num);(typeof(num));
+num = null;
+document.write(num);(num);
+document.write(num);(typeof(num));
+num = undefined;
+document.write(num);(num);
+document.write(num);(typeof(num));

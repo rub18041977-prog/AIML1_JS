@@ -152,7 +152,7 @@ document.write(linebreak);
 //     case'E':document.write("Failed <br/>");
 //     break;
 // }
-// document.write()
+// document.write("existing switch block");
 // }
 
  
@@ -192,13 +192,39 @@ document.write(linebreak);
 
 
 
-var person={
-    name:"Jhon Max",
-    age:30,
-    isMarried:true,
-    address: {
-        street: "Vijay Nagar",
-        flatNO: 201
-    }
-}
-console.log(person);
+// var person={
+//     name:"Jhon Mac",
+//     age:30,
+//     isMarried:true,
+//     address: {
+//         street: "Vijay Nagar",
+//         flatNO: 201
+//     }
+// }
+// console.log(person);
+
+
+
+// var person2 = new Object();
+// person2.name = 'Krishnkant';
+// person2.age = 32;
+// person2.isMarried = ();
+// person2.address.street = 'nagar road';
+// person2['address']['flatNO'] = 33;
+// console.log(person2)
+
+
+
+
+var person = {
+    name: 'John Mac',
+    age: 30,
+    isMarried: true,
+    child: ['cheeku'],
+    getInfo: function(){
+},
+   address:{
+    street: 'vinay nagar',
+    flatNO: 20
+   }
+};
