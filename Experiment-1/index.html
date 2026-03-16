@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Employee Details</h2>
+
+Name: <input type="text" id="name"><br><br>
+ID: <input type="text" id="id"><br><br>
+Salary: <input type="number" id="salary"><br><br>
+Department: <input type="text" id="dept"><br><br>
+
+<button onclick="addEmployee()">Add Employee</button>
+<button onclick="displayEmployees()">Display Employees</button>
+<button onclick="filterSalary()">Salary > 50000</button>
+<button onclick="totalSalary()">Total Salary</button>
+<button onclick="averageSalary()">Average Salary</button>
+<button onclick="countByDepartment()">Count Department</button>
+
+<h3>Output</h3>
+<div id="output"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

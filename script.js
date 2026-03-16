@@ -216,15 +216,46 @@ document.write(linebreak);
 
 
 
-var person = {
-    name: 'John Mac',
-    age: 30,
-    isMarried: true,
-    child: ['cheeku'],
-    getInfo: function(){
-},
-   address:{
-    street: 'vinay nagar',
-    flatNO: 20
-   }
-};
+// var person = {
+//     name: 'John Mac',
+//     age: 30,
+//     isMarried: true,
+//     child: ['cheeku'],
+//     getInfo: function(){
+// },
+//    address:{
+//     street: 'vinay nagar',
+//     flatNO: 20
+//    }
+// };
+
+
+
+
+
+// const result3 = document.getElementByClassName("p")
+// result3[2].innerHTML = "this is a pet";
+// result3[1].stylecolor = "blue";
+// result3[1].innerText = "my paragraph";
+
+// to get the attribute value
+// const element = document.getElementById("myH1");
+// let text = element.getAttribute("class");
+// document.getElementById("demo").innerHTML = text;
+
+// function myFunction(){ 
+//     document.getElementById("myH1").setAttribute("class", "democlass");
+
+// }
+
+
+// Create an Element
+// const heading = document.createElement("h2")
+// const bodytag = document.getElementsByTagName("body");
+// bodytag[0].append(heading);
+// heading.innerText = "hello";heading.style.backgroundColor="red";
+
+
+function onMouseOver(){
+    console.log("On Mouse Over");
+}
