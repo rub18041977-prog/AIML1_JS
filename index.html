@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Details</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <button onclick="myFunction()">Try it</button>
-    <p>Click the following button to call the function</p>
-    <form>
-        <input type="button" on click = "sayHello('zara',7)" value = "sayHello">
-    </form>
-    <h1 id="myH1" class="democlass"> The Element Object</h1>
-    <p id="demo"></p>
-    <h2>DOM close() Method</h2>
-    <button onclick="practice()">Submit</button>
-    <button onmouseover="onMouseOver()">Submit</button>
-    
-    <script src="./script.js"></script>
+
+<div class="main-container">
+
+<div class="Card">
+
+<h1>Employee Details</h1>
+
+<form action="#">
+
+<input type="text" id="name" placeholder="Employee Name">
+
+<input type="text" id="id" placeholder="Employee ID">
+
+<input type="number" id="salary" placeholder="Salary">
+
+<input type="text" id="dept" placeholder="Department">
+
+<button type="button" class="btn" onclick="addEmployee()">Add Employee</button>
+
+<button type="button" class="btn" onclick="displayEmployees()">Display Employees</button>
+
+<button type="button" class="btn" onclick="averageSalary()">Average Salary</button>
+
+<button type="button" class="btn" onclick="filterSalary()">Salary > ₹50K</button>
+
+<button type="button" class="btn" onclick="countByDepartment()">Count Departments</button>
+
+<button type="button" class="btn" onclick="totalSalary()">Total Salary</button>
+
+</form>
+
+</div>
+
+<div id="output">
+
+<div class="empty-state">
+
+No data yet<br>
+
+<span>Add employees to see results here</span>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
